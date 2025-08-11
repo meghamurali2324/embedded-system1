@@ -37,9 +37,12 @@ else if(num==3){
     printf("product of %d \n", mul_res);
     
 }
-else {
+else if(num==4){
     div_res=div(a,b);
     printf("quotient of %d \n", div_res);
+}
+else{
+    printf("invalid");
 }
 
 
